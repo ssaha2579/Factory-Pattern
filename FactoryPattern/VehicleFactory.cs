@@ -13,10 +13,10 @@ public static class VehicleFactory
                 return new Car();
             
             case 5:
-                return new multi_wheel(); 
+                return new MultiWheel(); 
             
             default:
-                return new multi_wheel();
+                return new MultiWheel();
             
         }
     }

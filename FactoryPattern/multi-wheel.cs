@@ -1,6 +1,6 @@
 namespace FactoryPattern;
 
-public class multi_wheel:IVehicle
+public class MultiWheel:IVehicle
 {
     public void Drive()
     {

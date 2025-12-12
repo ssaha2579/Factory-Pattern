@@ -7,8 +7,8 @@
             Console.WriteLine("Hello, how many wheels does your vehicle have?");
             var wheelCount = int.Parse(Console.ReadLine());
             
-            var vechicle = VehicleFactory.CreateVehicle(wheelCount);
-            vechicle.Drive();
+            var vehicle = VehicleFactory.CreateVehicle(wheelCount);
+            vehicle.Drive();
                 
         }
     }
